@@ -4,7 +4,7 @@ function App() {
   return (
     <div className="min-h-screen bg-gray-900 text-white p-6">
       <h1 className="text-4xl font-bold mb-4">Papi G's Beats</h1>
-      <p className="mb-6">&#128293; Buy and download exclusive beats instantly</p>
+      <p className="mb-6">Buy and download exclusive beats instantly</p>
 
       <div className="grid gap-4">
         {/* Beat Card 1 */}
@@ -46,7 +46,7 @@ function App() {
 
       <footer className="mt-10">
         <h2 className="text-lg font-semibold mb-2">Payment Options</h2>
-        <p>&#128242; Scan QR to pay:</p>
+        <p>Scan QR to pay:</p>
         <div className="flex gap-4 mt-2">
           <img src="/cashapp.png" alt="CashApp" className="h-20" />
           <img src="/venmo.png" alt="Venmo" className="h-20" />
