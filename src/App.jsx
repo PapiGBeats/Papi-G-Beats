@@ -1,5 +1,4 @@
-import React from "react";
-import "./App.css";
+import './App.css';
 
 function App() {
   return (
@@ -12,12 +11,22 @@ function App() {
         <h2>Royal Hip-Hop</h2>
         <audio controls>
           <source src="/beats/royalhip-hop.mp3" type="audio/mpeg" />
+          Your browser does not support the audio element.
         </audio>
         <p>$10 - Instant Download</p>
         <div className="payments">
-          <div>CashApp QR<br />$PapiGBeats</div>
-          <div>Venmo QR<br />@dustinfusco</div>
-          <div>PayPal QR<br />@DustinFusco</div>
+          <div>
+            <p>CashApp QR</p>
+            <p>$PapiGBeats</p>
+          </div>
+          <div>
+            <p>Venmo QR</p>
+            <p>@dustinfusco</p>
+          </div>
+          <div>
+            <p>PayPal QR</p>
+            <p>@DustinFusco</p>
+          </div>
         </div>
       </div>
 
@@ -26,12 +35,22 @@ function App() {
         <h2>De La Mer</h2>
         <audio controls>
           <source src="/beats/delamer.mp3" type="audio/mpeg" />
+          Your browser does not support the audio element.
         </audio>
         <p>$10 - Instant Download</p>
         <div className="payments">
-          <div>CashApp QR<br />$PapiGBeats</div>
-          <div>Venmo QR<br />@dustinfusco</div>
-          <div>PayPal QR<br />@DustinFusco</div>
+          <div>
+            <p>CashApp QR</p>
+            <p>$PapiGBeats</p>
+          </div>
+          <div>
+            <p>Venmo QR</p>
+            <p>@dustinfusco</p>
+          </div>
+          <div>
+            <p>PayPal QR</p>
+            <p>@DustinFusco</p>
+          </div>
         </div>
       </div>
 
@@ -40,12 +59,22 @@ function App() {
         <h2>Old School</h2>
         <audio controls>
           <source src="/beats/old-school.mp3" type="audio/mpeg" />
+          Your browser does not support the audio element.
         </audio>
         <p>$10 - Instant Download</p>
         <div className="payments">
-          <div>CashApp QR<br />$PapiGBeats</div>
-          <div>Venmo QR<br />@dustinfusco</div>
-          <div>PayPal QR<br />@DustinFusco</div>
+          <div>
+            <p>CashApp QR</p>
+            <p>$PapiGBeats</p>
+          </div>
+          <div>
+            <p>Venmo QR</p>
+            <p>@dustinfusco</p>
+          </div>
+          <div>
+            <p>PayPal QR</p>
+            <p>@DustinFusco</p>
+          </div>
         </div>
       </div>
     </div>
