@@ -1,58 +1,57 @@
-/* General page styling */
+/* Background */
 body {
   margin: 0;
   font-family: Arial, sans-serif;
-  background-color: #0d1117; /* Dark background */
-  color: #ffffff; /* White text */
+  background: linear-gradient(135deg, #0d47a1, #1976d2); /* dark to lighter blue */
+  color: white;
   text-align: center;
 }
 
 /* Header */
 h1 {
-  font-size: 2.5rem;
   margin-top: 20px;
+  font-size: 2.5rem;
   font-weight: bold;
 }
 
-h2 {
-  font-size: 1.5rem;
-  margin-top: 10px;
-  color: #cccccc;
+p {
+  margin-bottom: 40px;
+  font-size: 1.2rem;
+  color: #e0e0e0; /* softer white */
 }
 
-/* Beat card container */
+/* Beat Cards */
 .beat-card {
-  background-color: #161b22; /* Dark gray card */
-  border-radius: 10px;
+  background: #1c1c1c;
+  border-radius: 12px;
   padding: 20px;
   margin: 20px auto;
-  width: 90%;
   max-width: 500px;
-  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
+  box-shadow: 0px 4px 10px rgba(0,0,0,0.5);
+  text-align: center;
 }
 
-/* Audio player */
+/* Audio Player */
 audio {
   width: 100%;
   margin: 10px 0;
 }
 
-/* Payment section */
-.payment {
+/* Payment Row */
+.payment-row {
   display: flex;
   justify-content: space-around;
   align-items: center;
   margin-top: 15px;
 }
 
-.payment img {
-  width: 50px;
-  height: 50px;
-  object-fit: contain;
+.payment-row img {
+  width: 40px;
+  height: 40px;
 }
 
-.payment span {
+.payment-row span {
   display: block;
-  margin-top: 5px;
   font-size: 0.9rem;
+  margin-top: 5px;
 }
