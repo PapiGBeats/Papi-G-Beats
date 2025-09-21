@@ -15,7 +15,7 @@ function App() {
             Your browser does not support the audio tag.
           </audio>
           <div className="mt-3">
-            <p>$30 - Instant Download</p>
+            <p>$10 - Instant Download</p>
             <p className="text-sm">Pay with CashApp / Venmo / PayPal</p>
             <img
               src="/Screenshot_20250920_185441_Cash App.png"
