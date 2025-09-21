@@ -1,14 +1,14 @@
 import React from "react";
-import "./App.css";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
+      <header>
         <h1>Papi Gs Beats</h1>
         <p>Buy and download exclusive beats instantly</p>
       </header>
 
+      {/* Royal Hip-Hop */}
       <div className="beat-card">
         <h2>Royal Hip-Hop</h2>
         <audio controls>
@@ -32,6 +32,7 @@ function App() {
         </div>
       </div>
 
+      {/* De La Mer */}
       <div className="beat-card">
         <h2>De La Mer</h2>
         <audio controls>
@@ -55,10 +56,11 @@ function App() {
         </div>
       </div>
 
+      {/* Old School */}
       <div className="beat-card">
         <h2>Old School</h2>
         <audio controls>
-          <source src="/beats/old-school.mp3" type="audio/mpeg" />
+          <source src="/beats/old-school.mp3" type="audio/mp3" />
           Your browser does not support the audio element.
         </audio>
         <p>$10 - Instant Download</p>
