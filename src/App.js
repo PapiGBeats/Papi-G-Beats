@@ -34,9 +34,3 @@ function App() {
           <img src="/venmo.png" alt="Venmo" className="h-20" />
           <img src="/paypal.png" alt="PayPal" className="h-20" />
         </div>
-      </footer>
-    </div>
-  );
-}
-
-export default App;
