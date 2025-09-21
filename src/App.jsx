@@ -5,77 +5,47 @@ function App() {
   return (
     <div className="App">
       <h1>Papi Gs Beats</h1>
-      <h2>Buy and download exclusive beats instantly</h2>
+      <p>Buy and download exclusive beats instantly</p>
 
       {/* Royal Hip-Hop */}
       <div className="beat-card">
-        <h3>Royal Hip-Hop</h3>
+        <h2>Royal Hip-Hop</h2>
         <audio controls>
-          <source src="/beats/royalhip-hop22.28.wav" type="audio/wav" />
-          Your browser does not support the audio element.
+          <source src="/beats/royalhip-hop.mp3" type="audio/mpeg" />
         </audio>
         <p>$10 - Instant Download</p>
-        <div className="payment">
-          <div>
-            <img src="/cashapp-new.png" alt="CashApp QR" />
-            <span>$PapiGBeats</span>
-          </div>
-          <div>
-            <img src="/venmo.png" alt="Venmo QR" />
-            <span>@dustinfusco</span>
-          </div>
-          <div>
-            <img src="/paypal.png" alt="PayPal QR" />
-            <span>@DustinFusco</span>
-          </div>
+        <div className="payments">
+          <div>CashApp QR<br />$PapiGBeats</div>
+          <div>Venmo QR<br />@dustinfusco</div>
+          <div>PayPal QR<br />@DustinFusco</div>
         </div>
       </div>
 
       {/* De La Mer */}
       <div className="beat-card">
-        <h3>De La Mer</h3>
+        <h2>De La Mer</h2>
         <audio controls>
-          <source src="/beats/delamer.wav" type="audio/wav" />
-          Your browser does not support the audio element.
+          <source src="/beats/delamer.mp3" type="audio/mpeg" />
         </audio>
         <p>$10 - Instant Download</p>
-        <div className="payment">
-          <div>
-            <img src="/cashapp-new.png" alt="CashApp QR" />
-            <span>$PapiGBeats</span>
-          </div>
-          <div>
-            <img src="/venmo.png" alt="Venmo QR" />
-            <span>@dustinfusco</span>
-          </div>
-          <div>
-            <img src="/paypal.png" alt="PayPal QR" />
-            <span>@DustinFusco</span>
-          </div>
+        <div className="payments">
+          <div>CashApp QR<br />$PapiGBeats</div>
+          <div>Venmo QR<br />@dustinfusco</div>
+          <div>PayPal QR<br />@DustinFusco</div>
         </div>
       </div>
 
       {/* Old School */}
       <div className="beat-card">
-        <h3>Old School</h3>
+        <h2>Old School</h2>
         <audio controls>
-          <source src="/beats/old-school.mp3" type="audio/mp3" />
-          Your browser does not support the audio element.
+          <source src="/beats/old-school.mp3" type="audio/mpeg" />
         </audio>
         <p>$10 - Instant Download</p>
-        <div className="payment">
-          <div>
-            <img src="/cashapp-new.png" alt="CashApp QR" />
-            <span>$PapiGBeats</span>
-          </div>
-          <div>
-            <img src="/venmo.png" alt="Venmo QR" />
-            <span>@dustinfusco</span>
-          </div>
-          <div>
-            <img src="/paypal.png" alt="PayPal QR" />
-            <span>@DustinFusco</span>
-          </div>
+        <div className="payments">
+          <div>CashApp QR<br />$PapiGBeats</div>
+          <div>Venmo QR<br />@dustinfusco</div>
+          <div>PayPal QR<br />@DustinFusco</div>
         </div>
       </div>
     </div>
