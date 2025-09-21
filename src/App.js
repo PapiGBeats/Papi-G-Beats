@@ -3,7 +3,7 @@ import React from 'react';
 function App() {
   return (
     <div className="min-h-screen bg-gray-900 text-white p-6">
-      <h1 className="text-4xl font-bold mb-4">Papi G Beats</h1>
+      <h1 className="text-4xl font-bold mb-4">Papi G's Beats</h1>
       <p className="mb-6">🔥 Buy and download exclusive beats instantly</p>
 
       <div className="grid gap-4">
@@ -27,9 +27,9 @@ function App() {
 
         {/* Beat Card 2 */}
         <div className="bg-gray-800 p-4 rounded">
-          <h2 className="text-xl font-semibold">Energy Blast</h2>
+          <h2 className="text-xl font-semibold">De La Mer</h2>
           <audio controls className="w-full mt-2">
-            <source src="/beats/EnergyBlast.wav" type="audio/wav" />
+            <source src="/beats/delamer.wav" type="audio/wav" />
             Your browser does not support the audio tag.
           </audio>
           <div className="mt-3">
