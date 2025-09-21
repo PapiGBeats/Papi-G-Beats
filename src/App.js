@@ -17,7 +17,11 @@ function App() {
           <div className="mt-3">
             <p>$30 - Instant Download</p>
             <p className="text-sm">Pay with CashApp / Venmo / PayPal</p>
-          </div>
+          <img 
+  src="/Screenshot_20250920_185441_Cash App.png" 
+  alt="CashApp QR" 
+  className="w-32 h-32 mt-2"
+/></div>
         </div>
       </div>
 
