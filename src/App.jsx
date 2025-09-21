@@ -3,7 +3,7 @@ import React from 'react';
 function App() {
   return (
     <div className="min-h-screen bg-gray-900 text-white p-6">
-      <h1 className="text-4xl font-bold mb-4">Papi Gs Beats</h1>
+      <h1 className="text-4xl font-bold mb-4">Papi G's Beats</h1>
       <p className="mb-6">Buy and download exclusive beats instantly</p>
 
       <div className="grid gap-4">
@@ -18,7 +18,7 @@ function App() {
             <p>$10 - Instant Download</p>
             <p className="text-sm">Pay with CashApp / Venmo / PayPal</p>
             <img
-              src="/Screenshot_20250920_185441_CashApp.png"
+              src="/cashapp.png"
               alt="CashApp QR"
               className="w-32 h-32 mt-2"
             />
@@ -36,7 +36,7 @@ function App() {
             <p>$10 - Instant Download</p>
             <p className="text-sm">Pay with CashApp / Venmo / PayPal</p>
             <img
-              src="/Screenshot_20250920_185441_CashApp.png"
+              src="/cashapp.png"
               alt="CashApp QR"
               className="w-32 h-32 mt-2"
             />
