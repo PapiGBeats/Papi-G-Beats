@@ -9,8 +9,8 @@ function App() {
       {/* Royal Hip-Hop */}
       <div className="beat-card">
         <h2>Royal Hip-Hop</h2>
-        <audio controls>
-          <source src="/beats/royalhip-hop.mp3" type="audio/mpeg" />
+        <audio controls loop>
+          <source src="beats/royalhip-hop.mp3" type="audio/mpeg" />
           Your browser does not support the audio element.
         </audio>
         <p>$10 - Instant Download</p>
@@ -33,8 +33,8 @@ function App() {
       {/* De La Mer */}
       <div className="beat-card">
         <h2>De La Mer</h2>
-        <audio controls>
-          <source src="/beats/delamer.mp3" type="audio/mpeg" />
+        <audio controls loop>
+          <source src="beats/delamer.mp3" type="audio/mpeg" />
           Your browser does not support the audio element.
         </audio>
         <p>$10 - Instant Download</p>
@@ -57,8 +57,8 @@ function App() {
       {/* Old School */}
       <div className="beat-card">
         <h2>Old School</h2>
-        <audio controls>
-          <source src="/beats/old-school.mp3" type="audio/mpeg" />
+        <audio controls loop>
+          <source src="beats/old-school.mp3" type="audio/mpeg" />
           Your browser does not support the audio element.
         </audio>
         <p>$10 - Instant Download</p>
